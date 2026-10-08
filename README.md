@@ -2,11 +2,11 @@
 
 ## What is it?
 
-This repository is a plain-language guide and an agent skill. Both are based on the Open Agent Authority Framework (OAAF), an open framework for delegated authority. OAAF tells you how to give an AI agent only the authority that a task needs. It also tells you how to check that authority before each action, and how to prove it later.
+This repository is a simple guide and a ready-made skill for your AI agent. Both are based on the Open Agent Authority Framework (OAAF), an open framework for delegated authority. OAAF tells you how to give an AI agent only the authority that a task needs. It also tells you how to check that authority before each action, and how to prove it later.
 
 ![An agent asks to merge a pull request. Its key can do it, but the delegated authority does not include merge. An enforcement point checks the authority first, the decision is DENY, and the tool does not run. Evidence records each decision.](assets/key-is-not-permission.svg)
 
-*Do you want the technical words in plain English? Refer to the [Jargon Buster](JARGON.md).*
+*Do you want simple meanings for the technical words? Refer to the [Jargon Buster](JARGON.md).*
 
 ## What problem does it solve?
 
@@ -99,7 +99,7 @@ The skill starts automatically. You do not need to use its name.
 
 This guide is based on the [Open Agent Authority Framework (OAAF)](https://github.com/espradley/oaaf) by [Eddie Spradley](https://github.com/espradley), maintained by Edwin Digital LLC as initial steward. This guide explains the source at commit `a77116f` (18 August 2026), OAAF Core 1.0 contract, reference packages 0.1.0. That project uses the Apache License 2.0. This repository uses the same license. Refer to [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
-This is an independent plain-language guide. It is not an official part of the source project. For the full rules, use the source specification.
+This is an independent guide. It is not an official part of the source project. For the full rules, use the source specification.
 
 Changes from the source:
 
