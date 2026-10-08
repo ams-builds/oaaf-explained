@@ -14,7 +14,7 @@ An API key or a login token tells you what a process can access. It does not tel
 
 ## Who is it for?
 
-This guide is for small teams and solo builders who put AI agents into real work. For example, an agent that changes code, sends messages, or uses business tools for your team. You do not need to write code to use the skill. The skill uses the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), so it works with Claude, Codex, GitHub Copilot, and other AI agents that support this format.
+This guide is for small teams, teams that grow quickly, and solo builders who put AI agents into real work. You do not need to be a specialist in risk, cybersecurity, governance, or safety. For example, an agent that changes code, sends messages, or uses business tools for your team. You do not need to write code to use the skill. The skill uses the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), so it works with Claude, Codex, GitHub Copilot, and other AI agents that support this format.
 
 ## Safe by default
 
