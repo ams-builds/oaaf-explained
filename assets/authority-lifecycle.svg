@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1200 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">The life of one authority grant</title>
+<desc id="desc">Five steps: an issuer issues a grant, the agent presents it, the verifier evaluates it against the request and the current revocation state, the tool executes only after ALLOW, and evidence records the result. If the authority is expired, revoked, unverifiable or malformed, the answer is DENY.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#2d3142"/>
+  </marker>
+  <marker id="arrowMuted" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#7a8399"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1200" height="430" fill="#f5f5f5"/>
+<text x="70" y="44" font-family="'Instrument Serif', Georgia, 'Times New Roman', serif" font-size="28" fill="#2d3142">The Life Of One Authority Grant</text>
+<text x="70" y="64" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="9" letter-spacing="0.06em" fill="#7a8399">ISSUE, PRESENT, EVALUATE, EXECUTE, AUDIT</text>
+<rect x="70" y="112" width="180" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="78" y="120" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="96.0" y="132" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">STEP</text>
+<text x="160.0" y="150.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Issue</text>
+<text x="160.0" y="164.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">an issuer gives</text>
+<text x="160.0" y="176.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">a grant to the agent</text>
+<rect x="290" y="112" width="180" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="298" y="120" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="316.0" y="132" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">STEP</text>
+<text x="380.0" y="150.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Present</text>
+<text x="380.0" y="164.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">the agent shows</text>
+<text x="380.0" y="176.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">the grant with a request</text>
+<line x1="250" y1="160.0" x2="286" y2="160.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="510" y="112" width="180" height="96" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<rect x="518" y="120" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="536.0" y="132" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">STEP</text>
+<text x="600.0" y="150.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Evaluate</text>
+<text x="600.0" y="164.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">the verifier checks</text>
+<text x="600.0" y="176.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">scope, time, revocation</text>
+<line x1="470" y1="160.0" x2="506" y2="160.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="730" y="112" width="180" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="738" y="120" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="756.0" y="132" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">STEP</text>
+<text x="820.0" y="150.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Execute</text>
+<text x="820.0" y="164.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">the tool acts</text>
+<text x="820.0" y="176.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">only after ALLOW</text>
+<line x1="690" y1="160.0" x2="726" y2="160.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="950" y="112" width="180" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="958" y="120" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="976.0" y="132" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">STEP</text>
+<text x="1040.0" y="150.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Audit</text>
+<text x="1040.0" y="164.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">evidence records</text>
+<text x="1040.0" y="176.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">the decision</text>
+<line x1="910" y1="160.0" x2="946" y2="160.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="600.0" y1="208" x2="600.0" y2="254" stroke="#7a8399" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowMuted)"/>
+<rect x="290" y="258" width="620" height="64" rx="6" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="600.0" y="286.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Fails Closed</text>
+<text x="600.0" y="300.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">expired, revoked, unverifiable or malformed authority: DENY</text>
+<line x1="70" y1="352" x2="1130" y2="352" stroke="rgba(45,49,66,0.12)" stroke-width="1"/>
+<text x="70" y="378" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.1em" fill="#7a8399">FLOW</text>
+<line x1="150" y1="374" x2="180" y2="374" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="190" y="378" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">next step</text>
+<line x1="600" y1="374" x2="630" y2="374" stroke="#7a8399" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowMuted)"/>
+<text x="640" y="378" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">what happens when a check fails</text>
+</svg>

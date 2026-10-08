@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1200 426" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Delegation can only narrow</title>
+<desc id="desc">Agent A has authority to read file A and file B. It delegates a smaller set, read file A only, to Agent B. When Agent B reads file A, the answer is ALLOW. When Agent B tries to read file B, the answer is DENY, because Agent B never received that authority. Authority can get smaller at each step, never larger.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#2d3142"/>
+  </marker>
+  <marker id="arrowMuted" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#7a8399"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1200" height="426" fill="#f5f5f5"/>
+<text x="70" y="44" font-family="'Instrument Serif', Georgia, 'Times New Roman', serif" font-size="28" fill="#2d3142">Delegation Can Only Narrow</text>
+<text x="70" y="64" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="9" letter-spacing="0.06em" fill="#7a8399">EACH HANDOFF CAN GIVE LESS AUTHORITY, NEVER MORE</text>
+<rect x="70" y="150" width="260" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="78" y="158" width="42" height="16" rx="4" fill="#ececec"/>
+<text x="99.0" y="170" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AGENT</text>
+<text x="200.0" y="188.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Agent A</text>
+<text x="200.0" y="202.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">may read file A</text>
+<text x="200.0" y="214.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">may read file B</text>
+<line x1="330" y1="198" x2="426" y2="198" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="378" y="186" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" letter-spacing="0.06em" fill="#4f5d75">delegates</text>
+<rect x="430" y="150" width="260" height="96" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<rect x="438" y="158" width="42" height="16" rx="4" fill="#ececec"/>
+<text x="459.0" y="170" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AGENT</text>
+<text x="560.0" y="188.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Agent B</text>
+<text x="560.0" y="202.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">may read file A</text>
+<text x="560.0" y="214.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">only that</text>
+<rect x="830" y="100" width="300" height="80" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="838" y="108" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="856.0" y="120" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">TOOL</text>
+<text x="980.0" y="130.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Reads File A</text>
+<text x="980.0" y="144.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">ALLOW</text>
+<text x="980.0" y="156.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">it holds that authority</text>
+<rect x="830" y="216" width="300" height="80" rx="6" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1" stroke-dasharray="4,3"/>
+<rect x="838" y="224" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="856.0" y="236" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">TOOL</text>
+<text x="980.0" y="246.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Reads File B</text>
+<text x="980.0" y="260.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">DENY</text>
+<text x="980.0" y="272.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">it never received it</text>
+<path d="M690,190 C760,190 760,140 826,140" fill="none" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M690,206 C760,206 760,256 826,256" fill="none" stroke="#7a8399" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowMuted)"/>
+<line x1="70" y1="336" x2="1130" y2="336" stroke="rgba(45,49,66,0.12)" stroke-width="1"/>
+<text x="70" y="362" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.1em" fill="#7a8399">WHO</text>
+<rect x="150" y="350" width="42" height="16" rx="4" fill="#ececec"/>
+<text x="171.0" y="362" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AGENT</text>
+<text x="202" y="362" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">an AI agent that holds authority</text>
+<rect x="600" y="350" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="618.0" y="362" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">TOOL</text>
+<text x="646" y="362" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">a request to use a tool</text>
+<text x="70" y="394" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.1em" fill="#7a8399">FLOW</text>
+<line x1="150" y1="390" x2="180" y2="390" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="190" y="394" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">allowed</text>
+<line x1="600" y1="390" x2="630" y2="390" stroke="#7a8399" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowMuted)"/>
+<text x="640" y="394" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">denied before the tool runs</text>
+</svg>
