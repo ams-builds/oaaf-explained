@@ -1,6 +1,6 @@
 # Jargon Buster
 
-Plain-English explanations of the technical words in this project. The README does not use these words when it can. This file gives the precise words for readers who want them.
+Simple meanings of the technical words in this project. The README does not use these words when it can. This file gives the precise words for readers who want them.
 
 **A2A (Agent2Agent)**
 An open protocol that agents use to send work to other agents. OAAF checks delegated authority when one agent gives work to another agent.

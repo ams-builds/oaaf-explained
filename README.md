@@ -112,4 +112,4 @@ Changes from the source:
 
 ---
 
-*New words? The [Jargon Buster](JARGON.md) gives plain-English explanations of delegated authority, enforcement point, authority grant, narrowing, fail closed, and more.*
+*New words? The [Jargon Buster](JARGON.md) gives simple explanations of delegated authority, enforcement point, authority grant, narrowing, fail closed, and more.*
